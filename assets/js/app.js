@@ -7,17 +7,16 @@ menuIcon.addEventListener("click", () => {
 });
 
 $('.slick_slider').slick({
-    dots: true,
+    speed: 2000,
+    dots: false,
     infinite: true,
+    autoplay: true,
     slidesToShow: 6,
-    slidesToScroll: 1,
+    autoplaySpeed: 0,
     prevArrow: false,
     nextArrow: false,
-    autoplay: true,
-    autoplaySpeed: 0,
-    speed: 2000,
+    slidesToScroll: 1,
     cssEase: 'linear',
-    dots: false,
     responsive: [
         {
             breakpoint: 1024,
