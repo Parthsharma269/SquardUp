@@ -545,6 +545,12 @@
     background: #9EFF00;
 }
 
+@media (max-width:1029.33px) {
+    .input_box {
+        width: 100%;
+    }
+}
+
 @media (max-width:1024px) {
     .input_box {
         width: 100%;
