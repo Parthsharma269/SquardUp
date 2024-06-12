@@ -73,7 +73,6 @@ accItm.forEach(e => {
                 accHeadingJ.style.color = "#ffffff";
             }
         });
-
         if (txtDisplay === "none") {
             hiddenTxt.style.display = "block";
             num.style.color = "#9EFF00";

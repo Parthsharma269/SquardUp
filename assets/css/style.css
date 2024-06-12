@@ -183,8 +183,8 @@
 }
 
 .Range_Slider-img-m-w {
-    max-width: 666px !important;
-    max-height: 54px !important;
+    max-width: 666px;
+    max-height: 54px;
 }
 
 .ICON-img-m-w {
@@ -545,6 +545,12 @@
     background: #9EFF00;
 }
 
+@media (max-width:1024px) {
+    .input_box {
+        width: 100%;
+    }
+}
+
 @media (max-width: 992px) {
     .menuIcon {
         left: 80%;
@@ -588,7 +594,56 @@
 }
 
 @media (max-width:768px) {
+    :root {
+        --fs-48: 38px;
+    }
+
     .menuIcon {
         left: 78%;
+    }
+
+    .Card_5 {
+        width: 100%;
+    }
+
+    .Card_6 {
+        width: 100%;
+    }
+
+    .Form-Input-box {
+        width: 100%;
+    }
+
+    .Range-Slider-img-m-w {
+        max-width: 100% !important;
+    }
+
+    .INPUT {
+        width: 100% !important;
+    }
+
+    .pb-md-25 {
+        padding-bottom: 25%;
+    }
+}
+
+@media (max-width:320px) {
+    :root {
+        --fs-16: 10px;
+        --fs-20: 12px;
+        --fs-38: 27px;
+        --fs-48: 32px;
+    }
+
+    .gap-5 {
+        gap: 1rem !important;
+    }
+
+    .Form_Input_box {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
     }
 }
